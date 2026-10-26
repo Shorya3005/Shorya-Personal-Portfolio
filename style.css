@@ -453,3 +453,23 @@ img {
     align-items: stretch;
   }
 }
+body.dark-mode {
+  background: #0f172a;
+  color: #f8fafc;
+}
+
+body.dark-mode .card,
+body.dark-mode .project-card,
+body.dark-mode .chatbot-panel {
+  background: #1e293b;
+  color: #f8fafc;
+}
+
+body.dark-mode header {
+  background: #0f172a;
+}
+
+body.dark-mode p,
+body.dark-mode li {
+  color: #cbd5e1;
+}
