@@ -5,7 +5,6 @@ const sections = document.querySelectorAll("main section[id]");
 const yearEl = document.getElementById("year");
 const contactForm = document.getElementById("contact-form");
 const formStatus = document.getElementById("form-status");
-const chatbotForm = document.getElementById("chatbot-form");
 
 if (yearEl) {
   yearEl.textContent = String(new Date().getFullYear());
